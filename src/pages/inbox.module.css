@@ -1,0 +1,106 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f3f4;
+  }
+  
+  .header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 24px;
+    color: #202124;
+  }
+  
+  .messageList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .messageCard {
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subject {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+  }
+  
+  .snippet {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .unreadSubject {
+    font-weight: bold;
+    color: #202124;
+  }
+  
+  .readSubject {
+    font-weight: normal;
+    color: #5f6368;
+  }
+  
+  .unreadSnippet {
+    color: #202124;
+  }
+  
+  .readSnippet {
+    color: #5f6368;
+  }
+  
+  .statusContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .status {
+    font-size: 12px;
+    color: #80868b;
+  }
+  
+  .link {
+    font-size: 12px;
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footerButton {
+    display: inline-block;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .noMessages {
+    text-align: center;
+    font-size: 16px;
+    color: #5f6368;
+  }
+  

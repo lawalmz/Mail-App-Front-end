@@ -1,0 +1,94 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.formCard {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+  color: #555;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.textareaField {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-height: 150px;
+  resize: vertical;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a73e8;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonDisabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loadingText {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+}
+
+.successMessage {
+  font-size: 14px;
+  color: green;
+  text-align: center;
+}
+
+.errorMessage {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}

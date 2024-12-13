@@ -32,7 +32,7 @@ const SendMessageForm = () => {
     setIsLoading(true);
 
     try {
-      await axios.post('http://localhost:8000/api/messages', messageData);
+      await axios.post('https://mail-app-back-end.onrender.com/api/messages', messageData);
       setSuccessMessage('Message sent successfully');
       setError(null);
       setIsLoading(false);

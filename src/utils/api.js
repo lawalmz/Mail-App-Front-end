@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-  baseURL: "https://mail-app-back-end.onrender.com/api"
+  baseURL: "https://mail-app-back-end.onrender.com/api" 
 });
 
 export const fetchMessages = async (username) => {

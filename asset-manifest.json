@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mail-App-Front-end/static/css/main.53ee2f1a.css",
-    "main.js": "/Mail-App-Front-end/static/js/main.315cc400.js",
-    "static/js/488.eba23e0a.chunk.js": "/Mail-App-Front-end/static/js/488.eba23e0a.chunk.js",
-    "index.html": "/Mail-App-Front-end/index.html",
-    "main.53ee2f1a.css.map": "/Mail-App-Front-end/static/css/main.53ee2f1a.css.map",
-    "main.315cc400.js.map": "/Mail-App-Front-end/static/js/main.315cc400.js.map",
-    "488.eba23e0a.chunk.js.map": "/Mail-App-Front-end/static/js/488.eba23e0a.chunk.js.map"
+    "main.css": "/static/css/main.53ee2f1a.css",
+    "main.js": "/static/js/main.607d8a38.js",
+    "static/js/488.eba23e0a.chunk.js": "/static/js/488.eba23e0a.chunk.js",
+    "index.html": "/index.html",
+    "main.53ee2f1a.css.map": "/static/css/main.53ee2f1a.css.map",
+    "main.607d8a38.js.map": "/static/js/main.607d8a38.js.map",
+    "488.eba23e0a.chunk.js.map": "/static/js/488.eba23e0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53ee2f1a.css",
-    "static/js/main.315cc400.js"
+    "static/js/main.607d8a38.js"
   ]
 }
